@@ -14,7 +14,7 @@ If any step fails, previous steps are rolled back.
 Failure Handling
 
 Failure Scenario, Compensate                  
-Payment Service -> Card declined-> No action needed
-Inventory Service -> Out of stock -> Refund payment 
-Shipping Service -> No couriers -> Refund + release stock
+1. Payment Service -> Card declined-> No action needed
+2. Inventory Service -> Out of stock -> Refund payment 
+3. Shipping Service -> No couriers -> Refund + release stock
 
